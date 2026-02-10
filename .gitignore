@@ -1,0 +1,47 @@
+# Ignore sensitive files
+*.pem
+*.key
+*.crt
+*.env
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.log
+
+# Ignore Terraform directories
+.terraform/
+crash.log
+override.tf
+override.tf.json
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore SSH keys
+id_rsa
+id_rsa.pub
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python cache if using python scripts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Ansible retry files
+*.retry
+
+# Ignore node_modules (if any)
+node_modules/
+
+# Ignore Docker files (optional cache or volumes)
+*.tar
+docker-compose.override.yml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+*.bak
