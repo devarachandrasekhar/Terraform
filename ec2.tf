@@ -1,9 +1,20 @@
-resource "aws_instance" "test_instance" {
+resource "aws_instance" "EC2" {
   ami = var.ami_id
   instance_type = var.instance_type
  
  tags = {
-    Name = "We are creating EC2 instance"
+    Name = "DEV"
   }
 
 }
+
+
+# resource "aws_instance" "Practice" {
+#   ami = var.ami_id
+#   instance_type = var.instance_type
+ 
+#  tags = {
+#     Name = "DEV"
+#   }
+
+# }
